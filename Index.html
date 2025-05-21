@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CareCompanion Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #ffb347;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f7941d;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1608032077015-843cecef4f60') no-repeat center center;
+      background-size: cover;
+      height: 300px;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    h2 {
+      color: #f7941d;
+    }
+    .pricing-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .pricing-table th, .pricing-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .testimonials {
+      background-color: #fff8e1;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .testimonial {
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #f7941d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CareCompanion Services</h1>
+    <p>Trusted Babysitting & Petsitting</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Safe. Caring. Reliable.
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to CareCompanion Services! We are dedicated caregivers with a passion for children and animals. All team members are background-checked, CPR certified, and experienced in providing quality care and companionship.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <h3>Babysitting</h3>
+    <ul>
+      <li>Infant & toddler care</li>
+      <li>After-school pickup</li>
+      <li>Homework help</li>
+      <li>Overnight stays</li>
+    </ul>
+    <h3>Petsitting</h3>
+    <ul>
+      <li>Dog walking</li>
+      <li>Feeding & medication</li>
+      <li>Overnight care</li>
+      <li>Pet playtime</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <table class="pricing-table">
+      <tr>
+        <th>Service</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Babysitting (hourly)</td>
+        <td>$15/hour</td>
+      </tr>
+      <tr>
+        <td>Petsitting (hourly)</td>
+        <td>$12/hour</td>
+      </tr>
+      <tr>
+        <td>Overnight stay</td>
+        <td>$75/night</td>
+      </tr>
+      <tr>
+        <td>Dog walking</td>
+        <td>$20/walk</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">"My son loves his sitter! So caring and professional."</div>
+      <div class="testimonial">"They took such great care of our golden retriever while we were away!"</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <select required>
+        <option value="">Select Service</option>
+        <option>Babysitting</option>
+        <option>Petsitting</option>
+        <option>Dog Walking</option>
+      </select>
+      <textarea placeholder="Message or Booking Details" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 CareCompanion Services | Email: hello@carecompanion.com
+  </footer>
+
+</body>
+</html>
